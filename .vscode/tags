@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../article/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../my_blog/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+Article	../article/models.py	/^class Article(models.Model):$/;"	kind:class	line:4
+BASE_DIR	../my_blog/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BOOTSTRAP_ADMIN_SIDEBAR_MENU	../my_blog/settings.py	/^BOOTSTRAP_ADMIN_SIDEBAR_MENU = True$/;"	kind:variable	line:48
+DATABASES	../my_blog/settings.py	/^DATABASES = {$/;"	kind:variable	line:85
+DEBUG	../my_blog/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../my_blog/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:33
+LANGUAGE_CODE	../my_blog/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:96
+MIDDLEWARE_CLASSES	../my_blog/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	kind:variable	line:50
+Meta	../article/models.py	/^    class Meta:$/;"	kind:class	line:13
+Migration	../article/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+ROOT_URLCONF	../my_blog/settings.py	/^ROOT_URLCONF = 'my_blog.urls'$/;"	kind:variable	line:61
+STATIC_URL	../my_blog/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:110
+TEMPLATES	../my_blog/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:63
+TEMPLATE_CONTEXT_PROCESSORS	../my_blog/settings.py	/^TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + ($/;"	kind:variable	line:45
+TIME_ZONE	../my_blog/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:98
+USE_I18N	../my_blog/settings.py	/^USE_I18N = True$/;"	kind:variable	line:100
+USE_L10N	../my_blog/settings.py	/^USE_L10N = True$/;"	kind:variable	line:102
+USE_TZ	../my_blog/settings.py	/^USE_TZ = True$/;"	kind:variable	line:104
+WSGI_APPLICATION	../my_blog/settings.py	/^WSGI_APPLICATION = 'my_blog.wsgi.application'$/;"	kind:variable	line:79
+__init__.py	../article/__init__.py	1;"	kind:file	line:1
+__init__.py	../article/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../my_blog/__init__.py	1;"	kind:file	line:1
+__unicode__	../article/models.py	/^    def __unicode__(self):$/;"	kind:member	line:10
+admin.py	../article/admin.py	1;"	kind:file	line:1
+application	../my_blog/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+category	../article/models.py	/^    category = models.CharField(max_length = 50,blank = True)$/;"	kind:variable	line:6
+content	../article/models.py	/^    content = models.TextField(blank = True,null = True)$/;"	kind:variable	line:8
+date_time	../article/models.py	/^    date_time = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:7
+dependencies	../article/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:9
+fields	../article/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:15
+manage.py	../manage.py	1;"	kind:file	line:1
+models.py	../article/models.py	1;"	kind:file	line:1
+name	../article/migrations/0001_initial.py	/^            name='Article',$/;"	kind:variable	line:14
+operations	../article/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:12
+options	../article/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:22
+ordering	../article/models.py	/^        ordering = ['-date_time']/;"	kind:variable	line:14
+settings.py	../my_blog/settings.py	1;"	kind:file	line:1
+tests.py	../article/tests.py	1;"	kind:file	line:1
+title	../article/models.py	/^    title = models.CharField(max_length = 100)$/;"	kind:variable	line:5
+urlpatterns	../my_blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../my_blog/urls.py	1;"	kind:file	line:1
+views.py	../article/views.py	1;"	kind:file	line:1
+wsgi.py	../my_blog/wsgi.py	1;"	kind:file	line:1
