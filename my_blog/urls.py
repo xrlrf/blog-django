@@ -19,6 +19,7 @@ from article.views import RSSFeed
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^index/$', 'article.views.index', name='index'),
     url(r'^$', 'article.views.home', name='home'),
     url(r'^(?P<id>\d+)/$', 'article.views.detail', name='detail'),
     url(r'^archives/$', 'article.views.archives', name='archives'),

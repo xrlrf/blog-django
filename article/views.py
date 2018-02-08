@@ -8,6 +8,10 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 # Create your views here.
 
 
+def index(request):
+    return render(request, 'index.html')
+
+
 def home(request):
     post_list = Article.objects.all()
     return render(request, 'home.html', {'post_list': post_list})
